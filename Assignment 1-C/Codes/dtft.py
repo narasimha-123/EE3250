@@ -29,11 +29,11 @@ plt.title('Impulse Frequency Response')
 plt.xlabel('$w$')
 plt.ylabel('$H(jw)$')
 plt.grid()# minor
-plt.savefig('../figs/H(jw).eps')
-#If using termux
-#plt.savefig('../figs/H(jw).pdf')
 #plt.savefig('../figs/H(jw).eps')
-#subprocess.run(shlex.split("termux-open ../figs/H(jw).pdf"))
+#If using termux
+plt.savefig('../figs/H(jw).pdf')
+plt.savefig('../figs/H(jw).eps')
+subprocess.run(shlex.split("termux-open ../figs/H(jw).pdf"))
 
 #else
 #plt.show()
