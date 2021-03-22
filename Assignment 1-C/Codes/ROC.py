@@ -46,11 +46,11 @@ plt.ylabel('Imaginary')
 plt.grid()# minor
 plt.axis('scaled')
 plt.axis([-1.5,1.5,-1.5,1.5])
-plt.savefig('../figs/ROC.eps')
-#If using termux
-#plt.savefig('../figs/ROC.pdf')
 #plt.savefig('../figs/ROC.eps')
-#subprocess.run(shlex.split("termux-open ../figs/ROC.pdf"))
+#If using termux
+plt.savefig('../figs/ROC.pdf')
+plt.savefig('../figs/ROC.eps')
+subprocess.run(shlex.split("termux-open ../figs/ROC.pdf"))
 
 #else
 #plt.show()
