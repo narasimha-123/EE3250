@@ -48,10 +48,10 @@ plt.title('Output signal')
 plt.xlabel('$n$')
 plt.ylabel('$y(n)$')
 plt.grid()# minor
-plt.savefig('../figs/yn_conv.eps')
-#If using termux
-#plt.savefig('../figs/yn_conv.pdf')
 #plt.savefig('../figs/yn_conv.eps')
+#If using termux
+plt.savefig('../figs/yn_conv.pdf')
+plt.savefig('../figs/yn_conv.eps')
 #subprocess.run(shlex.split("termux-open ../figs/yn_conv.pdf"))
 #else
 #plt.show()
