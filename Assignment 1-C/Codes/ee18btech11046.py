@@ -90,3 +90,8 @@ plt.grid()
 plt.title("y(t) obtained through fft and ifft ")
 plt.savefig('../figs/ynfft.eps')
 #plt.show()
+#If using termux
+subprocess.run(shlex.split("termux-open ../figs/xnyn.pdf"))
+subprocess.run(shlex.split("termux-open ../figs/h(n).pdf"))
+subprocess.run(shlex.split("termux-open ../figs/xnhnfft.pdf"))
+subprocess.run(shlex.split("termux-open ../figs/ynfft.pdf"))
